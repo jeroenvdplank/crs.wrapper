@@ -1,6 +1,6 @@
 adSettings = {
-    "dfpNetworkcode": "38496904",
-    "siteName": "gldstemt",
+    "dfpNetworkcode": 38496904,
+    "siteName": "GLDstemt",
     "expectedCmp": "cookiebot_notlive",
     "lazyLoading": false,
     "lazyLoadingOffset": 10,
@@ -9,21 +9,20 @@ adSettings = {
     "hbSettings": {
         "rubicon": {
             "active": true,
-            "siteId": "212768",
+            "siteId": "212766",
             "accountId": "18908",
-            "zoneId": "1047006"
+            "zoneId": "1047014"
         },
         "appnexus": {
             "active": true,
-            "accountId": "14155233",
+            "accountId": "14155233"
         },
         "criteo": {
             "active": true,
-            "zoneIds": 
-            {
-                "300x250": "1269851",
-                "320x50": "1269850",
-                "728x90": "1269849"
+            "zoneIds": {
+                "300x250": "1269861",
+                "320x50": "1269862",
+                "728x90": "1269863"
             }
         },
         "improveDigital": {
@@ -41,79 +40,92 @@ adSettings = {
         "openx": {
             "active": false,
             "delDomain": "orn-d.openx.net",
-            "unit": "540492885",
+            "unit": "540492879",
         }
     },
     "adslots": {
         "Home": {
-            "bannerATF": {
+            "headerbanner": {
                 "viewports": [{
-                    "minwidth": 1040,
+                    "minwidth": 768,
                     "sizes": [320, 50]
                 }]
             },
-            "bannerATF_mobile": {
+            "content1": {
                 "viewports": [{
-                    "minwidth": 0,
-                    "maxwidth": 1023,
-                    "sizes": [320, 50]
-                }]
-            },
-            "rectangleATF": {
-                "viewports": [{
-                    "maxwidth": 768,
-                    "sizes": [[300, 250], [320, 240]]
-                },
-                {
                     "minwidth": 768,
                     "sizes": [300, 250]
                 }]
             },
-            "bannerBTF": {
-                "viewports": [
-                {
+            "content2": {
+                "viewports": [{
                     "minwidth": 768,
+                    "sizes": [[728, 90]]
+                }]
+            },
+            "sidebar1": {
+                "viewports": [{
+                    "minwidth": 768,
+                    "sizes": [300, 250]
+                }]
+            },
+            "tablet-headerbanner": {
+                "viewports": [{
+                    "minwidth": 920,
+                    "maxwidth": 1200,
+                    "sizes": [320, 50]
+                }]
+            },
+            "tablet-content1": {
+                "viewports": [{
+                    "minwidth": 920,
+                    "maxwidth": 1200,
+                    "sizes": [300, 250]
+                }]
+            },
+            "tablet-content2": {
+                "viewports": [{
+                    "minwidth": 920,
+                    "maxwidth": 1200,
                     "sizes": [728, 90]
                 }]
-            }
-        },
-        "ArticleList": {
-            "bannerATF": {
-                "viewports": [{
-                    "minwidth": 1040,
-                    "sizes": [320, 50]
-                }]
             },
-            "bannerATF_mobile": {
+            "tablet-article-sidebar1": {
                 "viewports": [{
-                    "minwidth": 0,
-                    "maxwidth": 1023,
-                    "sizes": [320, 50]
-                }]
-            }
-        },
-        "Article": {
-            "rectangleATF": {
-                "viewports": [{
-                    "maxwidth": 768,
-                    "sizes": [[300, 250], [320, 240]]
-                },
-                {
-                    "minwidth": 768,
+                    "minwidth": 920,
+                    "maxwidth": 1200,
                     "sizes": [300, 250]
                 }]
             },
-            "bannerATF": {
+            "tablet-underarticle": {
                 "viewports": [{
-                    "minwidth": 1040,
+                    "minwidth": 768,
+                    "maxwidth": 991, 
+                    "sizes": [728, 90]
+                }]
+            },
+            "phone-content1": {
+                "viewports": [{
+                    "maxwidth": 768,
                     "sizes": [320, 50]
                 }]
             },
-            "bannerATF_mobile": {
+            "phone-content2": {
                 "viewports": [{
-                    "minwidth": 0,
-                    "maxwidth": 1023,
+                    "maxwidth": 768,
+                    "sizes": [300, 250]
+                }]
+            },
+            "phone-article1": {
+                "viewports": [{
+                    "maxwidth": 768,
                     "sizes": [320, 50]
+                }]
+            },
+            "phone-article2": {
+                "viewports": [{
+                    "maxwidth": 768,
+                    "sizes": [300, 250]
                 }]
             }
         }
